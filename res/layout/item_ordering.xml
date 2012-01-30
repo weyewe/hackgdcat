@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/selected_item_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" >
+        <TextView 
+            android:text="@string/default_value_for_quantity"
+            
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+        <EditText 
+            android:id="@+id/order_quantity" 
+            android:inputType="number" 
+            android:layout_width="wrap_content"
+			android:layout_height="wrap_content"	
+            />
+        
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/save_order_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        androidtext="@string/save_item_ordering_button"
+        />
+    
+
+</LinearLayout>
